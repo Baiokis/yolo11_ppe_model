@@ -1,5 +1,6 @@
 import cv2
 from ultralytics import YOLO
+import torch
 
 # Configurações da câmera IP
 username = "admin"
@@ -8,10 +9,13 @@ ip_camera = "192.168.1.108"
 port = "554"
 rtsp_url = f"rtsp://{username}:{password}@{ip_camera}:{port}/cam/realmonitor?channel=1&subtype=0"
 
-# Modelo YOLO para detecção de EPI
-model = YOLO("ppe.pt")
-classNames = ['Hardhat', 'Mask', 'NO-Hardhat', 'NO-Mask', 'NO-Safety Vest', 'Person', 'Safety Cone',
-              'Safety Vest', 'machinery', 'vehicle']
+device = 'cuda' if torch.cuda.is_available() else 'cpu'
+print(f"Utilizando dispositivo: {device}")
+
+model = YOLO("ppe.pt").to(device)
+
+classNames = ['Hardhat', 'Mask', 'NO-Hardhat', 'NO-Mask', 'NO-Safety Vest',
+              'Person', 'Safety Cone', 'Safety Vest', 'machinery', 'vehicle']
 
 cap = cv2.VideoCapture(rtsp_url)
 
@@ -31,8 +35,7 @@ while True:
         print("Não foi possível obter o frame da câmera.")
         break
 
-
-    results = model(frame, stream=True, agnostic_nms=True, max_det=10)
+    results = model(frame, device=device)
 
     for r in results:
         for box in r.boxes:
