@@ -14,7 +14,7 @@ print(f"Utilizando dispositivo: {device}")
 # Carregar o modelo YOLOv5 usando torch.hub
 model = torch.hub.load('ultralytics/yolov5', 'custom', path='best.pt').to(device)
 
-classNames = ['glasses']
+classNames = ['Gloves', 'Helmet', 'Person', 'Shoes', 'Vest']
 
 cap = cv2.VideoCapture(rtsp_url)
 
