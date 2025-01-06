@@ -1,0 +1,20 @@
+{
+    "inference_id": "aadece4a-060e-4552-bf7a-7bc150b61cde",
+    "time": 0.048424714999782736,
+    "image": {
+        "width": 1200,
+        "height": 1600
+    },
+    "predictions": [
+        {
+            "x": 579.5,
+            "y": 586.0,
+            "width": 415.0,
+            "height": 366.0,
+            "confidence": 0.42477941513061523,
+            "class": "vest",
+            "class_id": 4,
+            "detection_id": "0f5e5391-41f4-4398-9237-e795337e7236"
+        }
+    ]
+}

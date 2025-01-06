@@ -1,0 +1,20 @@
+{
+    "inference_id": "e7fde13a-f129-492f-bf89-c63ea46f7f91",
+    "time": 0.0492879250000442,
+    "image": {
+        "width": 1200,
+        "height": 1600
+    },
+    "predictions": [
+        {
+            "x": 695.0,
+            "y": 1447.5,
+            "width": 110.0,
+            "height": 173.0,
+            "confidence": 0.6763557195663452,
+            "class": "boots",
+            "class_id": 0,
+            "detection_id": "b6227a02-82d6-4f17-a83b-f6258dddd6ce"
+        }
+    ]
+}

@@ -1,0 +1,40 @@
+{
+    "inference_id": "05d3a52e-8792-4276-b179-28c58a385e3c",
+    "time": 0.054698005999853194,
+    "image": {
+        "width": 1200,
+        "height": 1600
+    },
+    "predictions": [
+        {
+            "x": 457.0,
+            "y": 1475.5,
+            "width": 140.0,
+            "height": 219.0,
+            "confidence": 0.6879398822784424,
+            "class": "boots",
+            "class_id": 0,
+            "detection_id": "c26924d4-e02d-460b-8865-fffae86f3f11"
+        },
+        {
+            "x": 613.5,
+            "y": 605.5,
+            "width": 183.0,
+            "height": 153.0,
+            "confidence": 0.6194720268249512,
+            "class": "gloves",
+            "class_id": 2,
+            "detection_id": "5313354b-7ae6-41a5-8e04-3225793c9e73"
+        },
+        {
+            "x": 686.0,
+            "y": 1441.5,
+            "width": 138.0,
+            "height": 173.0,
+            "confidence": 0.5256870985031128,
+            "class": "boots",
+            "class_id": 0,
+            "detection_id": "4397ea82-8b2e-4ecb-909e-a86d9f894753"
+        }
+    ]
+}

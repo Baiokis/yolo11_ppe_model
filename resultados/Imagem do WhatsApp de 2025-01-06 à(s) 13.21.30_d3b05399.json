@@ -1,0 +1,30 @@
+{
+    "inference_id": "69019c53-8231-4934-91c4-be19050a3e21",
+    "time": 0.04164639400005399,
+    "image": {
+        "width": 1200,
+        "height": 1600
+    },
+    "predictions": [
+        {
+            "x": 647.5,
+            "y": 615.0,
+            "width": 165.0,
+            "height": 128.0,
+            "confidence": 0.7270752191543579,
+            "class": "gloves",
+            "class_id": 2,
+            "detection_id": "56f7daf1-2d8b-4fa0-a0eb-0107beb632e0"
+        },
+        {
+            "x": 683.5,
+            "y": 1445.5,
+            "width": 139.0,
+            "height": 171.0,
+            "confidence": 0.43190622329711914,
+            "class": "boots",
+            "class_id": 0,
+            "detection_id": "43313c00-5515-42d2-9881-974c7b9a1d80"
+        }
+    ]
+}

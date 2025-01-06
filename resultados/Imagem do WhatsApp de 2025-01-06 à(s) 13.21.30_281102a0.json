@@ -1,0 +1,20 @@
+{
+    "inference_id": "2b1eb6e4-92b2-4fd3-b17c-ca5624da2ec2",
+    "time": 0.05757354600063991,
+    "image": {
+        "width": 1200,
+        "height": 1600
+    },
+    "predictions": [
+        {
+            "x": 654.0,
+            "y": 621.5,
+            "width": 164.0,
+            "height": 139.0,
+            "confidence": 0.5908454656600952,
+            "class": "gloves",
+            "class_id": 2,
+            "detection_id": "a7f599ce-36b1-48d0-ba6a-7e434359c97a"
+        }
+    ]
+}
