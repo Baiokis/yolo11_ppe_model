@@ -3,7 +3,7 @@ import torch
 
 image_dir = 'fotos'
 output_dir = 'resultados'
-model_path = 'last.pt'
+model_path = 'modelos/last.pt'
 repo_dir = 'yolov5'
 
 model = torch.hub.load(repo_dir, 'custom', path=model_path, source='local')

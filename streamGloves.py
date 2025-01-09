@@ -12,7 +12,7 @@ device = 'cuda' if torch.cuda.is_available() else 'cpu'
 print(f"Utilizando dispositivo: {device}")
 
 # Carregar o modelo YOLOv5 usando torch.hub
-model = torch.hub.load('ultralytics/yolov5', 'custom', path='test.pt').to(device)
+model = torch.hub.load('ultralytics/yolov5', 'custom', path='modelos/test.pt').to(device)
 
 classNames = ['Gloves', 'no-gloves']
 

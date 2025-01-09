@@ -12,7 +12,7 @@ rtsp_url = f"rtsp://{username}:{password}@{ip_camera}:{port}/cam/realmonitor?cha
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
 print(f"Utilizando dispositivo: {device}")
 
-model = YOLO("ppe.pt").to(device)
+model = YOLO("modelos/definido/ppe.pt").to(device)
 
 classNames = ['Hardhat', 'Mask', 'NO-Hardhat', 'NO-Mask', 'NO-Safety Vest',
               'Person', 'Safety Cone', 'Safety Vest', 'machinery', 'vehicle']

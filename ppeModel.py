@@ -8,7 +8,7 @@ import math
 #cap.set(4, 720)
 cap = cv2.VideoCapture("../videos/ppe-1-1.mp4")  # For Video
 
-model = YOLO("ppe.pt")
+model = YOLO("modelos/definido/ppe.pt")
 
 classNames = ['Hardhat', 'Mask', 'NO-Hardhat', 'NO-Mask', 'NO-Safety Vest', 'Person', 'Safety Cone',
               'Safety Vest', 'machinery', 'vehicle']
