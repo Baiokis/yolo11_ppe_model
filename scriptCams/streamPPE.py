@@ -2,8 +2,8 @@ import cv2
 from ultralytics import YOLO
 import torch
 
-username = "admin"
-password = "autvix123456"
+username = "xpto"
+password = "xpto"
 ip_camera = "192.168.1.108"
 port = "554"
 rtsp_url = f"rtsp://{username}:{password}@{ip_camera}:{port}/cam/realmonitor?channel=1&subtype=0"

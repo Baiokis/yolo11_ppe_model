@@ -1,7 +1,7 @@
 import cv2
 
-username = "admin"
-password = "autvix123456"
+username = "xpto"
+password = "xpto"
 ip_camera = "192.168.1.108"
 port = "554"
 

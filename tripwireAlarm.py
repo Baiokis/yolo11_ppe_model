@@ -17,8 +17,8 @@ import time
 
 # 🔹 Configurações da Câmera Dahua
 class CameraConfig:
-    USERNAME = "admin"
-    PASSWORD = "autvix123456"
+    USERNAME = "xpto"
+    PASSWORD = "xpto"
     IP_CAMERA = "192.168.1.108"
     PORT = "80"
     EVENT_URL = f"http://{IP_CAMERA}:{PORT}/cgi-bin/eventManager.cgi?action=attach&codes=[CrossLineDetection]"
@@ -27,9 +27,9 @@ class CameraConfig:
 
 # 🔹 Configurações de E-mail
 class EmailConfig:
-    SENDER_EMAIL = "sistema@autvix.com.br"
-    SENDER_PASSWORD = "rwdgnwbcztxwkwlw"
-    RECIPIENT_EMAIL = "alexandre.baiocco@autvix.com.br"
+    SENDER_EMAIL = "xpto@outlook.com"
+    SENDER_PASSWORD = "xpto"
+    RECIPIENT_EMAIL = "xpto@outlook.com"
     
 # 🔹 Configurações do Modelo YOLO
 class YOLOConfig:
