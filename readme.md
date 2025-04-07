@@ -23,7 +23,7 @@ yolo11_ppe_model/
 ## Clone este repositório
 
 ```bash
-https://github.com/AutvixCode/ac24007-atvx-yolo11-ppe-model.git
+https://github.com/Baiokis/yolo11_ppe_model
 ```
 
 ## Scripts
